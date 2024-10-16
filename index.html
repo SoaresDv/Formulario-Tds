@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Inscrição - Curso de Informática</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="imagens/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img class="logo" src="img/logo tecleoinfo2.png" alt="logo da Escola de Informática"></h1>
+            <nav>
+                <ul>
+                    <li><a href="beneficiário.html">Beneficiário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Inscrição para o Curso de Informática</h2>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" class="input-padrao" required>
+    
+            <label for="rg">RG</label>
+            <input type="text" id="rg" class="input-padrao" required>
+    
+            <label for="estado">Expedido por</label>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione um estado</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+    
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" class="input-padrao" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+    
+            <label for="data-nascimento">Data de Nascimento</label>
+            <input type="date" id="data-nascimento" class="input-padrao" required>
+    
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" class="input-padrao" required>
+    
+            <label for="numero">N°</label>
+            <input type="number" id="numero" class="input-padrao" required>
+    
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" class="input-padrao" required>
+    
+            <label for="municipio">Município</label>
+            <input type="text" id="municipio" class="input-padrao" required>
+    
+            <label for="uf">UF</label>
+            <input type="text" id="uf" class="input-padrao" required>
+    
+            <label for="telefone">Telefone Fixo</label>
+            <input type="text" id="telFix" class="input-padrao" placeholder="XXXX-XXXX">
+    
+            <label for="celA">Celular A</label>
+            <input type="text" id="celA" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+    
+            <label for="celB">Celular B (opcional)</label>
+            <input type="text" id="celB" class="input-padrao" placeholder="(XX)XXXXX-XXXX">
+    
+            <label for="curso">Escolha o Curso</label>
+            <select id="curso" class="input-padrao" required>
+                <option value="">Selecione um curso</option>
+                <!-- Cursos continuam aqui -->
+            </select>
+    
+            <!-- Declaração e Assinaturas -->
+            <p class="declaracao">
+                Declaro verdadeiras as informações acima e estar ciente que, em caso de classificação para o curso e 
+                efetivação de matrícula, o não comparecimento nas aulas nos primeiros (05) cinco dias úteis do início do 
+                curso implicará na exclusão automática da matrícula, sendo necessário participar de novo processo seletivo 
+                para ingresso no curso pretendido.
+            </p>
+    
+            <p class="cidade-data">
+                Dois Vizinhos, ____ de _________________ de 20____.
+            </p>
+    
+            <label for="responsavel">Nome do(a) Responsável:</label>
+            <input type="text" id="responsavel" class="input-padrao" required>
+    
+            <label for="assinatura">Assinatura:</label>
+            <input type="text" id="assinatura" class="input-padrao" required>
+    
+            <!-- Documentos Necessários -->
+            <h3>Documentos necessários:</h3>
+            <ul class="documentos">
+                <li>Histórico escolar até o 8º ano e boletim do 9º ano;</li>
+                <li>Original e Fotocópia da Certidão de Nascimento;</li>
+                <li>RG e CPF;</li>
+                <li>Conta de luz de outubro ou novembro (COPEL) ou água (SANEPAR);</li>
+                <li>Declaração de Vacinação (emitida pelo Posto de Saúde);</li>
+                <li>Número do Cartão NIS (se tiver Auxílio Brasil);</li>
+                <li>RG e CPF do(a) responsável.</li>
+            </ul>
+    
+            <input type="submit" value="Enviar Inscrição" class="enviar">
+        </form>
+    
+        <footer>
+            <img src="img/Logo Celv Png.png" alt="logo da Escola de Informática">
+            <p class="copyright">&copy; Copyright Escola de Informática - 2024</p>
+        </footer>
+    </main>
+</body>
+</html>
